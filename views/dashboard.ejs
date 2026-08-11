@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>Welcome, <%= user.name %> 👋</h1>
+
+<p>Email</p>
+<h3><%= user.email %></h3>
+
+<br>
+
+<p>Your account is successfully authenticated.</p>
+
+<br>
+
+<a href="/logout">
+    <button>Logout</button>
+</a>
+
+</div>
+
+</body>
+</html>
